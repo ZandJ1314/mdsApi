@@ -1,0 +1,22 @@
+1、python的两个模块：
+	MS6IVvC9XFdQMi1gMwxK   chaxun  rm-2ze8syz2nh1jtm6tdmo.mysql.rds.aliyuncs.com 3306
+	https://www.jianshu.com/p/7e5d6667da0c
+	urllib和urllib2
+	urllib模块中的方法：
+	1.urllib.urlopen(url[,data[,proxies]])
+		打开一个url的方法，返回一个文件对象，然后进行类似文件对象的操作
+	urlopen返回对象提供方法：
+		read() , readline() ,readlines() , fileno() , close() ：这些方法的使用方式与文件对象完全一样
+		info()：返回一个httplib.HTTPMessage对象，表示远程服务器返回的头信息
+		getcode()：返回Http状态码。如果是http请求，200请求成功完成;404网址未找到
+		geturl()：返回请求的url
+	2.urllib.urllencode(query)
+		将url中的键值对以连接符&划分
+		params = urllib.urlencode({'spam':1,'eggs':2})
+		params = 'eggs=2&spam=1'
+	urllib2的常用函数：
+	1.urllib2.urlopen(url[,data][,timeout])与urllib的函数一样
+	2.urllib2.Request(url[,data][,headers][,origin_req_host][,unverifiable])
+		data:通过urllib.urlencode形成的字符串
+		header:请求头
+	3.add.header方法：在http request中加入特定的header

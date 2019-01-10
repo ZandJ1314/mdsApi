@@ -19,12 +19,13 @@ func Init(){
 	dsn1 := dbuser + ":" + dbpassword + "@tcp(" + dbhost + ":" + dbport + ")/" + "lwtz_mds" + "?charset=utf8"
 	fmt.Println(dsn1)
 	dsn2 := dbuser + ":" + dbpassword + "@tcp(" + dbhost + ":" + dbport + ")/" + "zsfy_mds" + "?charset=utf8"
+	fmt.Println(dsn2)
 	if timezone != ""{
 		dsn1 = dsn1 + "&loc=" + url.QueryEscape(timezone)
 		dsn2 = dsn2 + "&loc=" + url.QueryEscape(timezone)
 	}
 	orm.RegisterDataBase("default","mysql",dsn1)
-	//orm.RegisterDataBase("db2","mysql",dsn2)
+	orm.RegisterDataBase("db2","mysql",dsn2)
 	fmt.Println("连接数据库成功")
 	if beego.AppConfig.String("runmode") == "dev"{
 		orm.Debug = true

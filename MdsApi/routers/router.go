@@ -15,8 +15,8 @@ import (
 func init() {
 
 
-	//beego.Router("/",&controllers.OperaTionQuery{})
-	//beego.Router("/home",&controllers.TestQuery{})
+	beego.Router("/",&controllers.OperaTionQuery{})
+	beego.Router("/home",&controllers.TestQuery{})
 	ns := beego.NewNamespace("/v1",
 		beego.NSNamespace("/object",
 			beego.NSInclude(
@@ -28,11 +28,6 @@ func init() {
 				&controllers.UserController{},
 			),
 		),
-		beego.NSNamespace("/home",
-			beego.NSInclude(
-				&controllers.TestQuery{},
-					),
-				),
 	)
 	beego.AddNamespace(ns)
 }

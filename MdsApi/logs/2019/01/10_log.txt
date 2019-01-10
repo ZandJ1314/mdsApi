@@ -1,0 +1,2 @@
+2019/01/10 18:43:36.327 [E] [test.go:81]  failed%!(EXTRA *errors.errorString=key is of invalid type)
+2019/01/10 18:43:36.334 [E] [test.go:95]  failed%!(EXTRA *jwt.ValidationError=token contains an invalid number of segments)

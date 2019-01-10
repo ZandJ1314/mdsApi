@@ -7,15 +7,6 @@ import (
 
 func init() {
 
-    beego.GlobalControllerRouter["MdsApi/controllers:TestQuery"] = append(beego.GlobalControllerRouter["MdsApi/controllers:TestQuery"],
-        beego.ControllerComments{
-            Method: "Get",
-            Router: `/:uid`,
-            AllowHTTPMethods: []string{"get"},
-            MethodParams: param.Make(),
-            Filters: nil,
-            Params: nil})
-
     beego.GlobalControllerRouter["MdsApi/controllers:ObjectController"] = append(beego.GlobalControllerRouter["MdsApi/controllers:ObjectController"],
         beego.ControllerComments{
             Method: "Post",
@@ -123,6 +114,5 @@ func init() {
             MethodParams: param.Make(),
             Filters: nil,
             Params: nil})
-
 
 }

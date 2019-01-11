@@ -1,2 +1,4 @@
 2019/01/10 18:43:36.327 [E] [test.go:81]  failed%!(EXTRA *errors.errorString=key is of invalid type)
 2019/01/10 18:43:36.334 [E] [test.go:95]  failed%!(EXTRA *jwt.ValidationError=token contains an invalid number of segments)
+2019/01/10 19:25:18.883 [D] [test.go:26]  yy_zsfy
+2019/01/10 19:27:43.422 [D] [test.go:26]  操作的地址为serverName,javaDir,操作时间为yy_zsfy

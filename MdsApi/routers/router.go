@@ -13,9 +13,12 @@ import (
 )
 
 func init() {
-
-
-	beego.Router("/",&controllers.OperaTionQuery{})
+	beego.Router("/MDS/interface/openServers.action",&controllers.InsertMdsController{})
+	beego.Router("/MDS/interface/allServerByGameId.action",&controllers.ServerController{})
+	beego.Router("/MDS/interface/platformList.action",&controllers.AagentController{})
+	beego.Router("/MDS/interface/OperationQueryByConfigId",&controllers.GetConfigId{})
+	beego.Router("/MDS/interface/OperationQuery",&controllers.OperaTionQuery{})
+	beego.Router("/MDS/interface/OperationUpdate",&controllers.UpdateController{})
 	beego.Router("/home",&controllers.TestQuery{})
 	ns := beego.NewNamespace("/v1",
 		beego.NSNamespace("/object",

@@ -11,7 +11,7 @@ type ServerController struct {
 	beego.Controller
 }
 
-func (self * ServerController) Get(){
+func (self * ServerController) Post(){
 	result := make(map[string]interface{})
 	dataurl := self.GetString("dataurl")
 	time := self.GetString("time")

@@ -13,7 +13,7 @@ type InsertMdsController struct {
 }
 
 
-func (i *InsertMdsController) Get(){
+func (i *InsertMdsController) Post(){
 	result := make(map[string]interface{})
 	jsontomap := make(map[string]interface{})
 	dataurl := i.GetString("dataurl")

@@ -12,7 +12,7 @@ type AagentController struct {
 }
 
 
-func (a *AagentController) Get(){
+func (a *AagentController) Post(){
 	result := make(map[string]interface{})
 	dataurl := a.GetString("dataurl")
 	time := a.GetString("time")

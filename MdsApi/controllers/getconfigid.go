@@ -12,7 +12,7 @@ type GetConfigId struct {
 	beego.Controller
 }
 
-func (g *GetConfigId) Get(){
+func (g *GetConfigId) Post(){
 	result := make(map[string]interface{})
 	platDic := make(map[string]string)
 	newplatDic := make(map[string]string)

@@ -12,7 +12,7 @@ type UpdateController struct {
 	beego.Controller
 }
 
-func (u *UpdateController) Get(){
+func (u *UpdateController) Post(){
 	result := make(map[string]interface{})
 	platDic := make(map[string]string)
 	newplatDic := make(map[string]string)

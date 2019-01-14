@@ -21,7 +21,7 @@ var (
 	key []byte = []byte(beego.AppConfig.String("key"))
 )
 
-func (q *OperaTionQuery) Get() {
+func (q *OperaTionQuery) Post() {
 	result := make(map[string]interface{})
 	platDic := make(map[string]string)
 	newplatDic := make(map[string]string)
@@ -169,7 +169,7 @@ func GetToken(sign string) string{
 	}
 
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
-	ss, err := token.SignedString(beego.AppConfig.String("key"))
+	ss, err := token.SignedString(key)
 	if err != nil {
 		libs.NewLog().Error("failed",err)
 		logs.Error(err)

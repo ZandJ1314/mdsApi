@@ -1,0 +1,81 @@
+2019/01/14 09:51:43.715 [D] [test.go:34]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
+2019/01/14 10:45:52.246 [D] [operationquery.go:52]  使用的地址为,时间是1546050098
+2019/01/14 10:45:52.249 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 10:45:52.252 [E] [operationquery.go:174]  failed%!(EXTRA *errors.errorString=key is of invalid type)
+2019/01/14 10:45:52.257 [E] [operationquery.go:188]  failed%!(EXTRA *jwt.ValidationError=token contains an invalid number of segments)
+2019/01/14 10:45:52.260 [E] [operationquery.go:155]  密钥验证错误，检查你的sign的值!!!!
+2019/01/14 10:49:06.913 [D] [operationquery.go:53]  使用的地址为,时间是1546050293
+2019/01/14 10:49:06.917 [D] [operationquery.go:64]  传入后端的数据有,serverId:32000,fields:javaDir,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 10:49:06.920 [E] [operationquery.go:175]  failed%!(EXTRA *errors.errorString=key is of invalid type)
+2019/01/14 10:49:06.926 [E] [operationquery.go:189]  failed%!(EXTRA *jwt.ValidationError=token contains an invalid number of segments)
+2019/01/14 10:49:06.928 [E] [operationquery.go:156]  密钥验证错误，检查你的sign的值!!!!
+2019/01/14 10:50:39.990 [D] [operationquery.go:53]  使用的地址为,时间是1546050386
+2019/01/14 10:50:39.996 [D] [operationquery.go:64]  传入后端的数据有,serverId:32000,fields:javaDir,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 10:50:39.999 [E] [operationquery.go:175]  failed%!(EXTRA *errors.errorString=key is of invalid type)
+2019/01/14 10:50:40.002 [E] [operationquery.go:189]  failed%!(EXTRA *jwt.ValidationError=token contains an invalid number of segments)
+2019/01/14 10:50:40.005 [E] [operationquery.go:156]  密钥验证错误，检查你的sign的值!!!!
+2019/01/14 10:51:27.119 [D] [operationquery.go:53]  使用的地址为,时间是1546050433
+2019/01/14 10:51:27.121 [D] [operationquery.go:64]  传入后端的数据有,serverId:32000,fields:javaDir,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 10:53:06.881 [D] [operationquery.go:53]  使用的地址为,时间是1546050533
+2019/01/14 10:53:06.892 [D] [operationquery.go:64]  传入后端的数据有,serverId:32000,fields:javaDir,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 10:53:50.400 [D] [operationquery.go:53]  使用的地址为,时间是1546050576
+2019/01/14 10:53:50.402 [D] [operationquery.go:64]  传入后端的数据有,serverId:32000,fields:javaDir,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:00:41.063 [D] [operationquery.go:52]  使用的地址为,时间是1546050987
+2019/01/14 11:00:41.066 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,gameDBName,optime,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:00:41.119 [E] [operationquery.go:150]  数据库执行错误！！！,请正确输入参数%!(EXTRA *mysql.MySQLError=Error 1054: Unknown column 'optime' in 'field list')
+2019/01/14 11:00:58.392 [D] [operationquery.go:52]  使用的地址为,时间是1546051004
+2019/01/14 11:00:58.394 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,gameDBName,opentime,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:08:57.505 [D] [operationquery.go:52]  使用的地址为,时间是1546051483
+2019/01/14 11:08:57.507 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,gameDBName,opentime,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:09:11.911 [D] [operationquery.go:52]  使用的地址为,时间是1546051498
+2019/01/14 11:09:11.913 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,gameDBName,opentime,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:10:11.570 [D] [operationquery.go:52]  使用的地址为,时间是1546051557
+2019/01/14 11:10:11.573 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,gameDBName,opentime,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:10:55.945 [D] [operationquery.go:52]  使用的地址为,时间是1546051602
+2019/01/14 11:10:55.948 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,gameDBName,opentime,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:16:03.007 [D] [operationquery.go:52]  使用的地址为,时间是1546051909
+2019/01/14 11:16:03.009 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,gameDBName,opentime,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:16:55.829 [D] [operationquery.go:52]  使用的地址为,时间是1546051962
+2019/01/14 11:16:55.832 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,gameDBName,opentime,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:18:14.146 [D] [operationquery.go:52]  使用的地址为,时间是1546052040
+2019/01/14 11:18:14.149 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,gameDBName,opentime,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:18:46.223 [D] [operationquery.go:52]  使用的地址为,时间是1546052072
+2019/01/14 11:18:46.226 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,gameDBName,opentime,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:19:12.181 [D] [operationquery.go:52]  使用的地址为,时间是1546052098
+2019/01/14 11:19:12.184 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,gameDBName,opentime,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:21:10.111 [D] [operationquery.go:52]  使用的地址为,时间是1546052216
+2019/01/14 11:21:10.115 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,gameDBName,opentime,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:21:39.368 [D] [operationquery.go:52]  使用的地址为,时间是1546052245
+2019/01/14 11:21:39.370 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,gameDBName,opentime,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:22:47.853 [D] [operationquery.go:52]  使用的地址为,时间是1546052314
+2019/01/14 11:22:47.855 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,gameDBName,opentime,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:23:45.810 [D] [operationquery.go:52]  使用的地址为,时间是1546052372
+2019/01/14 11:23:45.814 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:25:14.021 [D] [operationquery.go:52]  使用的地址为,时间是1546052460
+2019/01/14 11:25:14.024 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:28:04.559 [D] [operationquery.go:52]  使用的地址为,时间是1546052630
+2019/01/14 11:28:04.561 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:28:30.999 [D] [operationquery.go:52]  使用的地址为,时间是1546052657
+2019/01/14 11:28:31.001 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:30:16.922 [D] [operationquery.go:52]  使用的地址为,时间是1546052763
+2019/01/14 11:30:16.925 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:30:43.016 [D] [operationquery.go:52]  使用的地址为,时间是1546052789
+2019/01/14 11:30:43.019 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:31:22.920 [D] [operationquery.go:52]  使用的地址为,时间是1546052829
+2019/01/14 11:31:22.922 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:32:46.079 [D] [operationquery.go:52]  使用的地址为,时间是1546052912
+2019/01/14 11:32:46.082 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:34:04.839 [D] [operationquery.go:52]  使用的地址为,时间是1546052991
+2019/01/14 11:34:04.842 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:34:35.393 [D] [operationquery.go:52]  使用的地址为,时间是1546053021
+2019/01/14 11:34:35.396 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:35:22.144 [D] [operationquery.go:52]  使用的地址为,时间是1546053068
+2019/01/14 11:35:22.146 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:35:42.321 [D] [operationquery.go:52]  使用的地址为,时间是1546053088
+2019/01/14 11:35:42.324 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:35:56.439 [D] [operationquery.go:52]  使用的地址为,时间是1546053102
+2019/01/14 11:35:56.442 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:36:07.350 [D] [operationquery.go:52]  使用的地址为,时间是1546053113
+2019/01/14 11:36:07.352 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,gameDBName,opentime,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)
+2019/01/14 11:43:42.696 [D] [operationquery.go:52]  使用的地址为,时间是1546053569
+2019/01/14 11:43:42.699 [D] [operationquery.go:63]  传入后端的数据有,serverId:32000,fields:javaDir,gameDBName,opentime,platformAlias:yy_zsfy,gameAlias:zsfy,serverIp:%!s(MISSING)

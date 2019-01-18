@@ -1,0 +1,10 @@
+2019/01/17 11:21:45.180 [D] [operationquery.go:49]  使用的地址为,时间是1546143925
+2019/01/17 11:21:45.182 [D] [operationquery.go:60]  传入后端的数据有,serverId:32000,fields:javaDir,gameDBName,opentime,platformAlias:yy_zsfy,gameAlias:zsfy
+2019/01/17 11:23:28.071 [D] [operationquery.go:49]  使用的地址为,时间是1546144028
+2019/01/17 11:23:28.074 [D] [operationquery.go:60]  传入后端的数据有,serverId:32000,fields:javaDir,gameDBName,opentime,platformAlias:yy_zsfy,gameAlias:zsfy
+2019/01/17 11:24:36.835 [D] [operationquery.go:49]  使用的地址为,时间是1546144097
+2019/01/17 11:24:36.837 [D] [operationquery.go:60]  传入后端的数据有,serverId:32000,fields:javaDir,gameDBName,opentime,platformAlias:yy_zsfy,gameAlias:zsfy
+2019/01/17 11:35:47.115 [D] [operationquery.go:49]  使用的地址为,时间是1546144767
+2019/01/17 11:35:47.117 [D] [operationquery.go:60]  传入后端的数据有,serverId:32000,fields:javaDir,gameDBName,opentime,platformAlias:yy_zsfy,gameAlias:zsfy
+2019/01/17 11:50:34.658 [D] [operationquery.go:49]  使用的地址为,时间是1546145655
+2019/01/17 11:50:34.661 [D] [operationquery.go:60]  传入后端的数据有,serverId:32000,fields:javaDir,gameDBName,opentime,platformAlias:yy_zsfy,gameAlias:zsfy

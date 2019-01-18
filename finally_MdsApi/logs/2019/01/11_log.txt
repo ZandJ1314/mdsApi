@@ -1,0 +1,26 @@
+2019/01/11 10:17:59.822 [D] [test.go:29]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
+2019/01/11 10:21:50.861 [D] [test.go:29]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
+2019/01/11 10:23:48.089 [D] [test.go:29]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
+2019/01/11 10:26:59.822 [D] [test.go:29]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
+2019/01/11 10:28:23.820 [D] [test.go:29]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
+2019/01/11 10:34:12.751 [D] [test.go:29]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
+2019/01/11 10:36:48.514 [D] [test.go:29]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
+2019/01/11 10:37:26.676 [D] [test.go:29]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
+2019/01/11 10:55:33.514 [D] [test.go:29]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
+2019/01/11 14:11:29.400 [D] [test.go:29]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
+2019/01/11 14:12:43.305 [D] [test.go:29]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
+2019/01/11 14:14:14.679 [D] [test.go:29]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
+2019/01/11 14:14:14.733 [E] [test.go:55]  faieds%!(EXTRA *mysql.MySQLError=Error 1142: UPDATE command denied to user 'chaxun'@'221.237.152.208' for table 'mds_server')
+2019/01/11 14:47:04.459 [D] [test.go:31]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
+2019/01/11 14:47:04.511 [E] [test.go:57]  faieds%!(EXTRA *mysql.MySQLError=Error 1142: UPDATE command denied to user 'chaxun'@'221.237.152.208' for table 'mds_server')
+2019/01/11 14:49:10.502 [D] [test.go:34]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
+2019/01/11 14:49:10.555 [E] [test.go:60]  faieds%!(EXTRA *mysql.MySQLError=Error 1142: UPDATE command denied to user 'chaxun'@'221.237.152.208' for table 'mds_server')
+2019/01/11 17:18:21.084 [D] [test.go:34]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
+2019/01/11 17:19:59.790 [D] [test.go:34]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
+2019/01/11 17:37:15.324 [D] [test.go:34]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
+2019/01/11 17:38:24.869 [D] [test.go:34]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
+2019/01/11 17:38:25.527 [D] [test.go:34]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
+2019/01/11 17:39:39.071 [D] [test.go:34]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
+2019/01/11 18:04:24.242 [D] [test.go:34]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
+2019/01/11 18:05:04.649 [D] [test.go:34]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
+2019/01/11 18:05:44.773 [D] [test.go:34]  操作的地址为serverName,javaDir,操作时间为yy_zsfy
